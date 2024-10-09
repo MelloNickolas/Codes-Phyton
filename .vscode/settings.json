@@ -1,0 +1,7 @@
+{
+  "python.testing.pytestArgs": [
+    "Ipe-2_Trabalho"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}
