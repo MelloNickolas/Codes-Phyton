@@ -21,7 +21,7 @@ def userface():
     print(" Opção Inválida, favor seguir as opções mostradas ")
     return
   
-  arquivo = "./msg.txt"
+  arquivo = "/Users/nicko/Documents/Aulas_Facul/2-Semestre/Introd_Prog_Estruturada/Aps-Criprografia/msg.txt"
 
   try:
     # 'r' (modo de abertura): O argumento 'r' significa que o arquivo será aberto em modo leitura (read)
