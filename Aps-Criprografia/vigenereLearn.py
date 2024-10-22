@@ -10,9 +10,9 @@ def descriptografar(msg, key):
   # upper() converte todas as letras para maiusculas, porque Vigenere só usa maiusculas.
 
   # msg é o texto que será criptografado
-  msg = msg.replace(" ", "").upper()
+  msg = msg.upper()
   #  Aqui que vamos colococar a chave para realizar a cifra de vigenere, para assim criptografar usando a grade de vigenere
-  key = key.replace(" ", "").upper()
+  key = key.upper()
 
   # Essa variavel vai controlar como nos vamos usar na grade de vigenere
   key_grade = 0
@@ -69,8 +69,8 @@ def descriptografar(msg, key):
 #Agora vamos colocar a funçao para criptografar a nossa msg.
 def criptografar(msg, key):
   txtCripto = []
-  msg = msg.replace(" ", "").upper()
-  key = key.replace(" ", "").upper()
+  msg = msg.upper()
+  key = key.upper()
 
   key_grade = 0
 

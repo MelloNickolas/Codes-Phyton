@@ -1,7 +1,7 @@
 def descriptografar(msg, key):
   txtDescripto = []
-  msg = msg.replace(" ", "").upper()
-  key = key.replace(" ", "").upper()
+  msg = msg.upper()
+  key = key.upper()
   key_grade = 0
 
   for i in range(len(msg)):
@@ -24,8 +24,8 @@ def descriptografar(msg, key):
 
 def criptografar(msg, key):
   txtCripto = []
-  msg = msg.replace(" ", "").upper()
-  key = key.replace(" ", "").upper()
+  msg = msg.upper()
+  key = key.upper()
   key_grade = 0
 
   for i in range(len(msg)):

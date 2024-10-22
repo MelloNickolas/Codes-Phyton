@@ -19,7 +19,7 @@ def cripto_decripto(txt, key, funcao):
       # Aqui nos estamos definindo um limite, pois vamos mudar as letras para os número ASCII.
       # Se a letra for maiúscula (letra.isupper()), o ponto de partida é o código ASCII de 'A' (65).
       # Se a letra for minúscula, o ponto de partida é o código ASCII de 'a' (97).
-      limite = 65 if letra.isupper() else 96
+      limite = 65 if letra.isupper() else 97
 
       # Estamos realizando tudo nessa linha
       # ord(letra) Esta -- convertendo a ltra da mensagem em um numero

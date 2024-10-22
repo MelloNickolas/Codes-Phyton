@@ -2,7 +2,7 @@ def cripto_decripto(txt, key, funcao):
   resultado = ""
   for letra in txt:
     if letra.isalpha():
-      limite = 65 if letra.isupper() else 96
+      limite = 65 if letra.isupper() else 97
       letraNova = chr((ord(letra) - limite + (key * funcao)) % 26 + limite)
       resultado += letraNova
     else:
