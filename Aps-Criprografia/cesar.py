@@ -25,9 +25,9 @@ def userface():
   key = int(input(" Informe o número da codificação : "))
 
   if funcao == '1':
-    print("\n Fras Criptografada : ", cripto_decripto(txt, key, 1))
+    print("\n Frase Criptografada : ", cripto_decripto(txt, key, 1))
   elif funcao == '2':
-    print("\n Fras Criptografada : ", cripto_decripto(txt, key, -1))
+    print("\n Frase Criptografada : ", cripto_decripto(txt, key, -1))
   else:
     print("Opção inválida!")
 
